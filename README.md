@@ -1,16 +1,48 @@
-### Hi there 👋
+### Hi there 👋 My name is Aurelia
 
-<!--
-**Aurelia-Perrier/Aurelia-Perrier** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a junior developer. I'm currently learning the famous front framework React 👩‍💻. I have a passion for dancing, cooking and of course coding.
+Coding is a pure pleasure each day. It is so challenging and mindblowing 🤯.
 
-Here are some ideas to get you started:
+```
+<?php
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+namespace Aurelia;
+
+class About extends Me
+{
+    public function getSoftSkills(): array
+    {
+        return [
+            'skills' => [
+                'curious',
+                'self-taught',
+                'autonomous',
+                'team spirit',
+                'time management',
+                'adaptation capacity'      
+            ]
+        ];
+    }
+
+    public function getDailyKnowledge(): array
+    {
+        return [
+            Php::class,
+            OOP::class,
+            Javascript::class,
+            Symfony::class,
+            React::class,
+            CSS::class,
+            SQL::class,
+            API Rest::class,
+            TailwindCss::class,
+            Bootstrap::class,
+        ];
+    }
+
+    public function getFutureGoal(): string
+    {
+        return 'Find an intership and grow as a senior developer';
+    }
+}
+```
