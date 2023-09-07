@@ -46,3 +46,6 @@ class About extends Me
     }
 }
 ```
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=Aurelia-Perrier)](https://github.com/anuraghazra/github-readme-stats)
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
